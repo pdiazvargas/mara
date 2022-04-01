@@ -12,8 +12,8 @@
           :label="settings.meta.eps.label"
           :hint="settings.meta.eps.hint"
           step="0.1"
-          min="11"
-          max="14"
+          min="0.1"
+          max="1"
           type="number"
           required
         >
