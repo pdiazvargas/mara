@@ -16,7 +16,7 @@
         :exact="true"
         icon
       >
-        <v-icon>mdi-cog-outline</v-icon>
+        <v-icon>mdi-help-circle-outline</v-icon>
       </v-btn>
     </v-app-bar>
     <v-main>

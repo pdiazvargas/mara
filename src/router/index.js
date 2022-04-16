@@ -5,7 +5,7 @@ import store from '../store'
 import CalculateView from '../views/CalculateView.vue'
 import ReportList from '../views/ReportList.vue'
 import ResultView from '../views/ResultView.vue'
-import SettingsView from '../views/SettingsView.vue'
+import SettingsView from '../views/ReadonlySettingsView.vue'
 import NotFound from '../views/NotFound.vue'
 
 Vue.use(VueRouter)

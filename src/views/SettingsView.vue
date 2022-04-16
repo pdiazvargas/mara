@@ -15,7 +15,8 @@
           min="0.1"
           max="1"
           type="number"
-          required
+          persistent-hint
+          disabled
         >
         </v-text-field>
         <v-text-field
@@ -27,7 +28,8 @@
           min="0.1"
           max="1.0"
           type="number"
-          required
+          persistent-hint
+          disabled
         ></v-text-field>
         <v-text-field
           v-model="event.retefuente"
@@ -38,7 +40,8 @@
           min="0.1"
           max="1.0"
           type="number"
-          required
+          persistent-hint
+          disabled
         ></v-text-field>
         <v-text-field
           v-model="event.reteica"
@@ -49,15 +52,16 @@
           min="0.1"
           max="1.0"
           type="number"
-          required
+          persistent-hint
+          disabled
         ></v-text-field>
       </v-card-text>
-      <v-card-actions>
+      <!-- <v-card-actions>
         <v-btn color="deep-purple accent-4" v-on:click="updateSettings" text>
           update
         </v-btn>
         <v-btn v-on:click="setDefaults" text> defaults </v-btn>
-      </v-card-actions>
+      </v-card-actions> -->
     </v-card>
   </div>
 </template>
